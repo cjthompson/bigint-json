@@ -1,0 +1,17 @@
+{
+  "name": "@osirisdev/bigint-json",
+  "version": "1.0.0",
+  "description": "Serialize/Deserialize BigInt values in JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "keywords": [
+    "json",
+    "bigint",
+    "serialize",
+    "deserialize"
+  ],
+  "author": "Chris Thompson <chris@thompson-web.org>",
+  "license": "ISC"
+}
