@@ -14,7 +14,7 @@
   }
 })()
 
-const matchBigInt = /^BigInt::(\d+)$/
+const matchBigInt = /^BigInt::(-?\d+)$/
 
 function reviver(key, value) {
   return typeof value === 'string' && value.startsWith('BigInt::')

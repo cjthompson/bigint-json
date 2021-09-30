@@ -1,10 +1,10 @@
 const bigintJson = require('.')
 const assert = require('assert')
 
-const val = { num: 5, big: 5n }
+const val = { num: 5, big: 5n, neg: -5, negBig: -5n }
 
 console.log('Stringify: ')
-assert.equal(JSON.stringify(val), '{"num":5,"big":"BigInt::5"}')
+assert.equal(JSON.stringify(val), '{"num":5,"big":"BigInt::5","neg":-5,"negBig":"BigInt::-5"}')
 console.log(JSON.stringify(val))
 console.log('  PASSED')
 
